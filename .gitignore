@@ -1,0 +1,32 @@
+## Build
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+## Database
+*.mdf
+*.ldf
+*.db
+
+## Configuration
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+!appsettings.example.json
+
+## Uploads
+wwwroot/uploads/
+
+## Environment
+.env
+
+## OS
+.DS_Store
+Thumbs.db
