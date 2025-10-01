@@ -27,7 +27,6 @@ src/
 - SQL Server Express o LocalDB
 
 ### Instalación
-
 ```bash
 # 1. Clonar
 git clone <url-del-repo>
@@ -37,7 +36,7 @@ cd Maqui-web-backend
 dotnet restore
 
 # 3. Configurar BD
-cp src/Maqui.API/appsettings.example.json src/Maqui.API/appsettings.json
+# Copiar src/Maqui.API/appsettings.example.json a src/Maqui.API/appsettings.json
 # Editar connection string en appsettings.json
 
 # 4. Crear BD y aplicar migraciones
